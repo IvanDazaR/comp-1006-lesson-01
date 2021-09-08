@@ -1,0 +1,13 @@
+{
+    "name": "comp-1006/lesson-01",
+    "description": "Our first application",
+    "autoload": {
+        "psr-4": {
+            "Comp1006\\Lesson01\\": "src/"
+        }
+    },
+    "require": {},
+    "scripts": {
+        "test": "phpunit --coverage-html coverage --whitelist ./src --colors=\"always\" --testdox ./tests"
+    }
+}
